@@ -1,3 +1,3 @@
 # ohtu-2021-viikko1
 
-![Github Actions](https://github.com/JuusoVe/ohtu-2021-viikko1/workflows/Juuson%20Java%20CI/badge.svg)
+![Juuson Java CI](https://github.com/JuusoVe/ohtu-2021-viikko1/actions/workflows/gradle.yml/badge.svg)
