@@ -1,3 +1,9 @@
+
+# Tehtävien mukaiset ignoret
+*.tmp
+build/
+.gradle/
+
 # Compiled class file
 *.class
 
