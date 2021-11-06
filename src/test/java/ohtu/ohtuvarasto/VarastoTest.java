@@ -116,4 +116,10 @@ public class VarastoTest {
         // varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
         assertEquals(4, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
+    
+    @Test
+    public void stringiToimii() {
+        Varasto tyhjaVarasto = new Varasto(10.0);
+        assertEquals("saldo = 0.0, vielä tilaa 10.0", tyhjaVarasto.toString());
+    }
 }
