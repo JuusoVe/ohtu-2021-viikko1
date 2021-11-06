@@ -1,4 +1,4 @@
-name: Java CI with Gradle
+name: Juuson Java CI
 
 on:
   push:
@@ -19,3 +19,7 @@ jobs:
       run: chmod +x gradlew
     - name: Test with Gradle
       run: ./gradlew test
+    - name: Code coverage rapost
+      run: ./gradlew jacocoTestReport
+    - name: Data to codecov
+      run: bash <(curl -s https://codecov.io/bash)
