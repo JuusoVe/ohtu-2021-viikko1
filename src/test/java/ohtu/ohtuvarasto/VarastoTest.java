@@ -27,7 +27,7 @@ public class VarastoTest {
     
     @Test
     public void konstruktoriLuoNollatilavuudenHuonollaSyotteella() {
-        varasto = new Varasto(-1.0);
+        varasto = new Varasto(1.0);
         assertEquals(0, varasto.getTilavuus(), vertailuTarkkuus);
     }
     @Test
