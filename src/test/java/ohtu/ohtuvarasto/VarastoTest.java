@@ -41,7 +41,7 @@ public class VarastoTest {
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
     @Test
-    public void konstruktoriLuoTäydenVaraston() {
+    public void konstruktoriLuoTaydenVaraston() {
         varasto = new Varasto(10.0,10.0);
         assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
     }
